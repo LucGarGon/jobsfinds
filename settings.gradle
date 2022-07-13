@@ -1,0 +1,17 @@
+rootProject.name = "jobsfinds"
+
+include ':shared'
+project(':shared').projectDir = new File('src/shared')
+
+include ':company'
+project(':company').projectDir = new File('src/company')
+
+include ':interview'
+project(':interview').projectDir = new File('src/interview')
+
+include ':jobsmark'
+project(':jobsmark').projectDir = new File('src/jobsmark')
+
+include ':usuarios'
+project(':usuarios').projectDir = new File('src/usuarios')
+
